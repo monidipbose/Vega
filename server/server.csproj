@@ -5,13 +5,29 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20191107134614_InitialModel.cs" />
+    <Compile Remove="Migrations\20191107134614_InitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20191109160118_InitianlMigration.cs" />
+    <Compile Remove="Migrations\20191109160118_InitianlMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191109160946_InitialModel.cs" />
+    <Compile Remove="Migrations\20191109160946_InitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20191109161147_SeedDB.cs" />
+    <Compile Remove="Migrations\20191109161147_SeedDB.Designer.cs" />
+    <Compile Remove="Migrations\20191109161721_InitialModel.cs" />
+    <Compile Remove="Migrations\20191109161721_InitialModel.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.11" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
   </ItemGroup>
 
 </Project>
